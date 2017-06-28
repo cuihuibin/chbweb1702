@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+<div id="header"></div>
+<div id="register-body">
+    <div class="register-container">
+        <div class="register-icon">
+            <img src="picture/register_icon_1.png" alt=""/>
+        </div>
+        <h1>注册</h1>
+        <form id="regForm">
+            <div>
+                <input type="text" id="name" name="name" class="register-from" placeholder="用户名"/>
+            </div>
+            <div>
+                <input type="email" id="email" name="email" class="register-from" placeholder="电子邮箱"/>
+            </div>
+            <div>
+                <input type="password" id="upwd" name="upwd" class="register-from" placeholder="请输入密码"/>
+            </div>
+            <div>
+                <input type="password" id="rupwd" name="rupwd" class="register-from" placeholder="请再次输入密码"/>
+            </div>
+            <button id="bt-register" type="button" class="button-register">会员注册</button>
+            <p class="alert" style="margin-top: 10px;text-align: center;color: #e4393c;font-size: 20px;">*请在此处输入您的注册信息!</p>
+        </form>
+        <div class="register-help">
+            <div class="lf">
+                <b>点击注册，即表示您同意并遵守 <span>康佳用户协议</span></b>
+            </div>
+            <div class="rt">
+                <i><img src="picture/register_icon_2.png" alt=""/></i>
+                <b><a href="login.html">登录</a></b>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="footer"></div>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/register.js"></script>
+<script src="js/center.js"></script>
+</body>
+</html>

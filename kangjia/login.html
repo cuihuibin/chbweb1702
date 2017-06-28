@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+<div id="header"></div>
+<div id="login-body">
+    <div class="login-container">
+        <div class="login-icon">
+            <img src="picture/login_icon_1.png" alt=""/>
+        </div>
+        <h1>登陆</h1>
+        <form>
+            <div>
+                <input type="text" id="name" name="name" class="login-from" placeholder="用户名"/>
+            </div>
+            <div>
+                <input type="password" id="upwd" name="upwd" class="login-from" placeholder="密码"/>
+            </div>
+            <div class="bottom-choice">
+                <div class="lf">
+                    <label>
+                        <input type="checkbox" class="check-form" id="remb" name="remb"/>
+                        <span>两周内自动登录</span>
+                    </label>
+                </div>
+            </div>
+            <button id="bt-login" type="button" class="button-login">立即登录</button>
+            <p class="alert" style="margin-top: 10px;text-align: center;color: #e4393c;font-size: 20px;">*请在此处输入您的登录信息!</p>
+        </form>
+        <div id="warning_txt"></div>
+        <div class="login-help">
+            <div class="lf">
+                <i><img src="picture/login_icon_3.png" alt=""/></i>
+                <a href=""><b>忘记密码？</b></a>
+            </div>
+            <div class="rt">
+                <i><img src="picture/login_icon_4.png" alt=""/></i>
+                <b><a href="register.html">注册</a></b>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="footer"></div>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/login.js"></script>
+<script src="js/center.js"></script>
+</body>
+</html>
